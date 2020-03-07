@@ -1,0 +1,40 @@
+*{margin:0;padding:0;outline:0;border:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+body{background:#ECECEC}
+.wrap{
+	display: block;position: relative;
+	width: 1140px;height: auto;
+	margin:auto;
+}
+
+header{
+	display: block;position: relative;
+	width: 100%;
+	height: 500px;
+	background:url(http://subtlepatterns.com/patterns/footer_lodyas.png) repeat left top;
+}
+
+header.not_index{height:150px}
+
+header .container{padding-top:35px}
+
+header #logo{
+	display: block;position: relative;
+	width: 100%;height: 60px;
+	background: url(logo/v1.png) no-repeat left top;
+	-webkit-background-size: 100% auto;
+	     -o-background-size: 100% auto;
+	        background-size: 100% auto;
+}
+
+header #menu{margin-top:20px}
+header #menu a button{color:#FFF}
+
+header.not_index .slideshow{display:none}
+
+
+main .home_features{
+	display: block;position: relative;
+	width: 100%;
+	height: 300px;
+	background: #ECECEC;
+}
